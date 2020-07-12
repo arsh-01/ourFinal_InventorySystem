@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".personalDetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Details"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="0.2"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+       android:text="First Name:-"
+
+            />
+    <TextView
+        android:layout_weight="0.1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rTitle"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:hint="First Name"
+
+        />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="0.2"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+           android:text="Last Name:-"
+
+            />
+    <TextView
+        android:layout_weight="0.1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rDes"
+        android:layout_centerInParent="true"
+        android:hint="Last Name"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="0.2"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+          android:text="Phone Number:-"
+
+            />
+    <TextView
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rQty"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:hint="Phone Number"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="0.2"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Birthday:-"
+
+            />
+    <TextView
+        android:layout_weight="0.1"
+        android:textSize="20dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdb"
+        android:layout_centerInParent="true"
+        android:hint="Dob"
+        />
+    </LinearLayout>
+<Button
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="80dp"
+    android:text="edit"
+    android:onClick="ccc"/>
+</LinearLayout>

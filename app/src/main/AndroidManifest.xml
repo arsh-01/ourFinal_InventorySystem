@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ourinventorysystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Requestitem"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".pDetailsEdit"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".personalDetails"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".showSingleProduct"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".editable"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".studentImgActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".forgotPass"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".imagesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".addProduct"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".homeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".loginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".users"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".startingPage"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
